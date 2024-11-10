@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <h1> Rock Paper Scissor</h1>
+
+    <button id = "button" onclick = "choice(1)"> Rock </button>
+    <button id = "button" onclick = "choice(2)"> Paper </button>
+    <button id = "button" onclick = "choice(3)"> Scissor </button>
+
+    <div id = "player">
+        <br>
+        You choose xxxxx.
+    </div>
+
+    <div id = "bot">
+        Opponent choose xxxxx.
+    </div>
+    <p id = "result">Result: </p>
+
+    <script src = "script.js">
+
+        const Button = document.querySelector("#button");
+        const pchoice = document.querySelector("#player");
+        const bchoice = document.querySelector("#bot");
+        const result = document.querySelector("#result");
+
+    </script>
+
+</body>
+</html>
